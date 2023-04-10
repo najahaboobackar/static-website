@@ -1,0 +1,77 @@
+*{
+}
+body{
+    font-family:  Helvetica, sans-serif;
+}
+.logo{
+    padding left: 155px;
+    width: 85px;
+    
+}
+    
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 80vh;
+    padding-top: 40px;
+    background-color:  rgb(180, 173, 173);
+
+}
+.container{
+    background: white;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 400px;
+    align-items: center;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 10px 1px rgba(0 0 0 0.2);
+}
+.login{
+    font-size: 1.2rem;
+    margin: 20px 0 10px 0;
+}
+
+input{
+    width: 50%;
+    height:  50px;
+    border: 2px solid rgba(0 0 0 0.1);
+    border: 5px;
+    font-size: 20px;
+    padding-left: 20px;
+    font-weight: 400;
+    border: 10px;
+    border-radius: 5px;
+    border-color: black;
+    color: rgba(0 0 0 0.5);
+    gap: 10px;
+}
+button{
+    width: 90%;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    background-color: blue;
+    color: aliceblue;
+    font-size: large; 
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+    font-size: 14px;
+margin: 10px;
+}
+a:hover{
+text-decoration: underline;
+}
+.new-account{
+    width: 85%;
+    height: 50px;
+    background-color: green;
+    font-size: 34px;
+    color: aliceblue;
+    margin:1opx 0 20px 0;
+}
